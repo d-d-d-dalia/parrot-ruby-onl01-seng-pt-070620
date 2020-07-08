@@ -1,6 +1,6 @@
 require 'pry'
 
 def parrot(phrase)
-  pry
+  binding.pry
   puts "Squawk!"
 end
